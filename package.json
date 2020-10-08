@@ -30,5 +30,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "globals": [
+      "fetch"
+    ],
+    "env": [
+      "jest"
+    ]
   }
 }
