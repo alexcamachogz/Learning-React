@@ -3,6 +3,31 @@ body {
   background-color: #21232a;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+button {
   font-size: 1.2rem;
-  padding: 50px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #61dbfb;
+  border: 1px solid #61dbfb;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #2d7386;
+  border-color: #2d7386;
+}
+
+button:active {
+  background-color: #19424d;
+  border-color: #19424d;
 }

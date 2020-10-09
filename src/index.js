@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom'
 import './index.css'
 
 // Component
-import PrimeraApp from './PrimeraApp'
+// import PrimeraApp from './PrimeraApp'
+import CounterApp from './CounterApp'
 
 const divRoot = document.querySelector('#root')
 
-ReactDOM.render(<PrimeraApp greetings="Hello Alex" />, divRoot)
+ReactDOM.render(<CounterApp value={101} />, divRoot)
