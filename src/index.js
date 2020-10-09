@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const hello = <h1>Hello World!</h1>
+import './index.css'
+
+// Component
+import PrimeraApp from './PrimeraApp'
 
 const divRoot = document.querySelector('#root')
 
-ReactDOM.render(hello, divRoot)
+ReactDOM.render(<PrimeraApp greetings="Hello Alex" />, divRoot)
