@@ -22,10 +22,10 @@ button:focus {
   outline: none;
 }
 
-button:hover {
+/* button:hover {
   background-color: #2d7386;
   border-color: #2d7386;
-}
+} */
 
 button:active {
   background-color: #19424d;
